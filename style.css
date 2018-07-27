@@ -1,0 +1,67 @@
+body {
+  font-family: Verdana, Geneva, sans-serif;
+  color: black;
+  font-size: 10pt;
+}
+
+.container {
+  background-color: rgb(246, 246, 239);
+  padding: 0;
+}
+
+.navbar {
+  background-color: #ff6600;
+  padding: 2px;
+  justify-content: flex-start;
+  font-size: 10pt;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+.logo {
+  width: 18px;
+  border: 1px solid #f6f6f0;
+}
+
+.brand {
+  font-weight: bold;
+  margin-left: 5px;
+  font-size: 10pt;
+}
+
+.link {
+  padding: 0px 5px;
+}
+
+.log {
+  position: absolute;
+  right: 0;
+}
+
+.content {
+  margin-top: 10px;
+  height: 1000px;
+}
+
+span {
+  margin: 5px;
+  font-size: 8pt;
+}
+
+footer {
+  border-top: 1px solid #ff6600;
+  padding-top: 4px;
+  font-size: 8pt;
+  height: 100px;
+}
+
+footer a {
+  color: #828282;
+}
+
+form {
+  justify-content: center;
+}

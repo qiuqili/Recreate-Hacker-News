@@ -34,6 +34,7 @@ function createItem(value, type) {
   } else {
     sub.innerHTML = value.score + ' points by ' + value.by + timeConvert(value.time) + ' ago | hide | ';
   }
+
   listItem.appendChild(link);
   listItem.appendChild(sub);
   list.appendChild(listItem);
@@ -47,4 +48,4 @@ function timeConvert(t) {
     time = h + ':' + min + ' ';
   return time;
 }
-console.log(timeConvert(1532707016));
+// console.log(timeConvert(1532707016));

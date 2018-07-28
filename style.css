@@ -14,6 +14,8 @@ body {
   padding: 2px;
   justify-content: flex-start;
   font-size: 10pt;
+  flex-wrap: nowrap;
+  line-height: 12pt;
 }
 
 a {
@@ -22,6 +24,10 @@ a {
 }
 
 .logo {
+  padding-right: 4px;
+}
+
+.logo img {
   width: 18px;
   border: 1px solid #f6f6f0;
 }
@@ -32,22 +38,29 @@ a {
   font-size: 10pt;
 }
 
-.link {
-  padding: 0px 5px;
-}
-
 .log {
   position: absolute;
   right: 0;
+  padding-right: 4px;
 }
 
 .content {
   margin-top: 10px;
 }
 
-span {
-  margin: 5px;
-  font-size: 8pt;
+ol {
+  color: #828282;
+}
+li {
+  background: url(https://news.ycombinator.com/grayarrow.gif) no-repeat;
+}
+li a {
+  padding-left: 12px;
+}
+
+li div {
+  color: #828282;
+  font-size: 7pt;
 }
 
 footer {
@@ -57,10 +70,30 @@ footer {
   height: 100px;
 }
 
-footer a {
-  color: #828282;
-}
-
 form {
   justify-content: center;
+}
+
+@media only screen and (max-width: 750px) and (min-width: 300px) {
+  .link,
+  .log {
+    font-size: 12px;
+  }
+
+  .brand {
+    font-size: 15px;
+    display: block;
+  }
+  .toplinks {
+    margin: 3px 5px;
+  }
+
+  li a {
+    font-size: 11pt;
+    line-height: 14pt;
+  }
+
+  li div {
+    font-size: 9pt;
+  }
 }

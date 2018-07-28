@@ -51,9 +51,11 @@ a {
 ol {
   color: #828282;
 }
+
 li {
   background: url(https://news.ycombinator.com/grayarrow.gif) no-repeat;
 }
+
 li a {
   padding-left: 12px;
 }
@@ -84,6 +86,7 @@ form {
     font-size: 15px;
     display: block;
   }
+
   .toplinks {
     margin: 3px 5px;
   }
